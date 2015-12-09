@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C6504C51C17D379000B00CF /* TLMainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6504C41C17D379000B00CF /* TLMainStoryboard.storyboard */; };
+		1C6504D11C17D670000B00CF /* TLListListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6504D01C17D670000B00CF /* TLListListViewController.m */; };
+		1C6504D41C17D687000B00CF /* TLTaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6504D31C17D687000B00CF /* TLTaskListViewController.m */; };
+		1C6504D71C17D698000B00CF /* TLTaskDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6504D61C17D698000B00CF /* TLTaskDetailViewController.m */; };
+		1C6504DA1C17DDF9000B00CF /* TLTaskList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6504D91C17DDF9000B00CF /* TLTaskList.m */; };
+		1C6504DD1C17DDFA000B00CF /* TLTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6504DC1C17DDFA000B00CF /* TLTask.m */; };
 		CF7F66FF1C13DDA100833389 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7F66FE1C13DDA100833389 /* main.m */; };
-		CF7F67021C13DDA100833389 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7F67011C13DDA100833389 /* AppDelegate.m */; };
+		CF7F67021C13DDA100833389 /* TLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7F67011C13DDA100833389 /* TLAppDelegate.m */; };
 		CF7F67051C13DDA100833389 /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF7F67031C13DDA100833389 /* CoreDataDemo.xcdatamodeld */; };
 		CF7F67081C13DDA100833389 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7F67071C13DDA100833389 /* ViewController.m */; };
-		CF7F670B1C13DDA100833389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7F67091C13DDA100833389 /* Main.storyboard */; };
 		CF7F670D1C13DDA100833389 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7F670C1C13DDA100833389 /* Images.xcassets */; };
 		CF7F67101C13DDA100833389 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF7F670E1C13DDA100833389 /* LaunchScreen.xib */; };
 		CF7F671C1C13DDA100833389 /* CoreDataDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7F671B1C13DDA100833389 /* CoreDataDemoTests.m */; };
@@ -28,15 +33,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C6504C41C17D379000B00CF /* TLMainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TLMainStoryboard.storyboard; sourceTree = "<group>"; };
+		1C6504CF1C17D670000B00CF /* TLListListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLListListViewController.h; sourceTree = "<group>"; };
+		1C6504D01C17D670000B00CF /* TLListListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLListListViewController.m; sourceTree = "<group>"; };
+		1C6504D21C17D687000B00CF /* TLTaskListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTaskListViewController.h; sourceTree = "<group>"; };
+		1C6504D31C17D687000B00CF /* TLTaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTaskListViewController.m; sourceTree = "<group>"; };
+		1C6504D51C17D698000B00CF /* TLTaskDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTaskDetailViewController.h; sourceTree = "<group>"; };
+		1C6504D61C17D698000B00CF /* TLTaskDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTaskDetailViewController.m; sourceTree = "<group>"; };
+		1C6504D81C17DDF9000B00CF /* TLTaskList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTaskList.h; sourceTree = "<group>"; };
+		1C6504D91C17DDF9000B00CF /* TLTaskList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTaskList.m; sourceTree = "<group>"; };
+		1C6504DB1C17DDFA000B00CF /* TLTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTask.h; sourceTree = "<group>"; };
+		1C6504DC1C17DDFA000B00CF /* TLTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTask.m; sourceTree = "<group>"; };
 		CF7F66F91C13DDA100833389 /* CoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7F66FD1C13DDA100833389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF7F66FE1C13DDA100833389 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CF7F67001C13DDA100833389 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CF7F67011C13DDA100833389 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF7F67001C13DDA100833389 /* TLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLAppDelegate.h; sourceTree = "<group>"; };
+		CF7F67011C13DDA100833389 /* TLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLAppDelegate.m; sourceTree = "<group>"; };
 		CF7F67041C13DDA100833389 /* CoreDataDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataDemo.xcdatamodel; sourceTree = "<group>"; };
 		CF7F67061C13DDA100833389 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CF7F67071C13DDA100833389 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CF7F670A1C13DDA100833389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF7F670C1C13DDA100833389 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CF7F670F1C13DDA100833389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CF7F67151C13DDA100833389 /* CoreDataDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,15 +98,25 @@
 		CF7F66FB1C13DDA100833389 /* CoreDataDemo */ = {
 			isa = PBXGroup;
 			children = (
-				CF7F67001C13DDA100833389 /* AppDelegate.h */,
-				CF7F67011C13DDA100833389 /* AppDelegate.m */,
+				1C6504DB1C17DDFA000B00CF /* TLTask.h */,
+				1C6504DC1C17DDFA000B00CF /* TLTask.m */,
+				1C6504D81C17DDF9000B00CF /* TLTaskList.h */,
+				1C6504D91C17DDF9000B00CF /* TLTaskList.m */,
+				CF7F67001C13DDA100833389 /* TLAppDelegate.h */,
+				CF7F67011C13DDA100833389 /* TLAppDelegate.m */,
 				CF7F67061C13DDA100833389 /* ViewController.h */,
 				CF7F67071C13DDA100833389 /* ViewController.m */,
-				CF7F67091C13DDA100833389 /* Main.storyboard */,
 				CF7F670C1C13DDA100833389 /* Images.xcassets */,
 				CF7F670E1C13DDA100833389 /* LaunchScreen.xib */,
 				CF7F67031C13DDA100833389 /* CoreDataDemo.xcdatamodeld */,
 				CF7F66FC1C13DDA100833389 /* Supporting Files */,
+				1C6504C41C17D379000B00CF /* TLMainStoryboard.storyboard */,
+				1C6504CF1C17D670000B00CF /* TLListListViewController.h */,
+				1C6504D01C17D670000B00CF /* TLListListViewController.m */,
+				1C6504D21C17D687000B00CF /* TLTaskListViewController.h */,
+				1C6504D31C17D687000B00CF /* TLTaskListViewController.m */,
+				1C6504D51C17D698000B00CF /* TLTaskDetailViewController.h */,
+				1C6504D61C17D698000B00CF /* TLTaskDetailViewController.m */,
 			);
 			path = CoreDataDemo;
 			sourceTree = "<group>";
@@ -202,8 +227,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF7F670B1C13DDA100833389 /* Main.storyboard in Resources */,
 				CF7F67101C13DDA100833389 /* LaunchScreen.xib in Resources */,
+				1C6504C51C17D379000B00CF /* TLMainStoryboard.storyboard in Resources */,
 				CF7F670D1C13DDA100833389 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,10 +247,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF7F67021C13DDA100833389 /* AppDelegate.m in Sources */,
+				CF7F67021C13DDA100833389 /* TLAppDelegate.m in Sources */,
+				1C6504D41C17D687000B00CF /* TLTaskListViewController.m in Sources */,
+				1C6504D11C17D670000B00CF /* TLListListViewController.m in Sources */,
 				CF7F67051C13DDA100833389 /* CoreDataDemo.xcdatamodeld in Sources */,
 				CF7F67081C13DDA100833389 /* ViewController.m in Sources */,
 				CF7F66FF1C13DDA100833389 /* main.m in Sources */,
+				1C6504DA1C17DDF9000B00CF /* TLTaskList.m in Sources */,
+				1C6504DD1C17DDFA000B00CF /* TLTask.m in Sources */,
+				1C6504D71C17D698000B00CF /* TLTaskDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,14 +278,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CF7F67091C13DDA100833389 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF7F670A1C13DDA100833389 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CF7F670E1C13DDA100833389 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -420,6 +442,7 @@
 				CF7F67211C13DDA100833389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF7F67221C13DDA100833389 /* Build configuration list for PBXNativeTarget "CoreDataDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +451,7 @@
 				CF7F67241C13DDA100833389 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

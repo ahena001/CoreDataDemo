@@ -6,17 +6,18 @@
 //  Copyright (c) 2015 HenServer. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "TLAppDelegate.h"
 
-@interface AppDelegate ()
+@interface TLAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation TLAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    
     return YES;
 }
 
